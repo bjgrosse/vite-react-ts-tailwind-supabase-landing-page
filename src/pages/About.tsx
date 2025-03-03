@@ -10,112 +10,52 @@ const About = () => {
         style={{ backgroundColor: "var(--color-primary)" }}
       >
         <div className="text-center text-[var(--color-primary-contrast)] px-3">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Us</h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Learn more about our company and our mission to transform the
-            industry.
-          </p>
+          <h1 className="text-4xl md:text-5xl font-bold">About Us</h1>
         </div>
       </section>
 
       {/* Company Story Section */}
       <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold mb-6 text-[var(--color-text)]">
-              Our Story
-            </h2>
             <p className="text-[var(--color-text-secondary)] mb-4">
-              Founded in 2023, YourCompany started with a simple mission: to
-              create innovative solutions that help businesses thrive in the
-              digital age.
+              At Lavender, we believe love is limitless. Born from the desire to
+              create a space where connection thrives beyond labels, we welcome
+              people of every age, every stage, every life path. No matter your
+              sexual orientation, gender identity, or how you define yourself,
+              Lavender Love is a place where you belong.{" "}
             </p>
+
             <p className="text-[var(--color-text-secondary)] mb-4">
-              What began as a small team of passionate individuals has grown
-              into a dynamic company serving clients worldwide. Our commitment
-              to excellence and customer satisfaction remains at the core of
-              everything we do.
+              Here, love isn’t confined to traditional romance. It’s about
+              finding your people—the ones who truly see you, who choose to
+              stand beside you, and who want to build a life with you. Whether
+              you seek a lifelong partner, a chosen family, or a bond that
+              exists outside the traditional mold, you’ll find a home here.
             </p>
-            <p className="text-[var(--color-text-secondary)]">
-              Today, we continue to push the boundaries of what's possible,
-              leveraging cutting-edge technology to solve complex problems and
-              deliver exceptional results for our clients.
+
+            <p className="text-[var(--color-text-secondary)] mb-4">
+              Society tells us that love must look a certain way. But we know
+              better. We know that love takes infinite forms, and we embrace
+              them all. Lavender Love is more than a dating app—it’s a movement,
+              a safe haven, and a revolution in how we connect.{" "}
             </p>
-          </div>
-          <div className="bg-[var(--color-background-alt)] h-80 rounded-lg flex items-center justify-center">
-            <span className="text-[var(--color-text-secondary)]">
-              Company Image
-            </span>
-          </div>
-        </div>
-      </section>
 
-      {/* Team Section */}
-      <section className="py-16 bg-[var(--color-background-alt)]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12 text-[var(--color-text)]">
-            Our Team
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Team Member 1 */}
-            <div className="bg-[var(--color-background)] p-6 rounded-lg shadow-md text-center">
-              <div className="w-32 h-32 bg-[var(--color-background-alt)] rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-[var(--color-text-secondary)]">
-                  Photo
-                </span>
-              </div>
-              <h3 className="text-xl font-bold mb-1 text-[var(--color-text)]">
-                Jane Doe
-              </h3>
-              <p className="text-[var(--color-primary)] mb-3">CEO & Founder</p>
-              <p className="text-[var(--color-text-secondary)]">
-                With over 15 years of industry experience, Jane leads our
-                company with vision and passion.
-              </p>
-            </div>
-
-            {/* Team Member 2 */}
-            <div className="bg-[var(--color-background)] p-6 rounded-lg shadow-md text-center">
-              <div className="w-32 h-32 bg-[var(--color-background-alt)] rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-[var(--color-text-secondary)]">
-                  Photo
-                </span>
-              </div>
-              <h3 className="text-xl font-bold mb-1 text-[var(--color-text)]">
-                John Smith
-              </h3>
-              <p className="text-[var(--color-primary)] mb-3">CTO</p>
-              <p className="text-[var(--color-text-secondary)]">
-                John oversees our technical strategy and ensures we stay at the
-                forefront of innovation.
-              </p>
-            </div>
-
-            {/* Team Member 3 */}
-            <div className="bg-[var(--color-background)] p-6 rounded-lg shadow-md text-center">
-              <div className="w-32 h-32 bg-[var(--color-background-alt)] rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-[var(--color-text-secondary)]">
-                  Photo
-                </span>
-              </div>
-              <h3 className="text-xl font-bold mb-1 text-[var(--color-text)]">
-                Emily Johnson
-              </h3>
-              <p className="text-[var(--color-primary)] mb-3">Head of Design</p>
-              <p className="text-[var(--color-text-secondary)]">
-                Emily brings creativity and user-focused thinking to every
-                project we undertake.
-              </p>
-            </div>
+            <p className="text-[var(--color-text-secondary)] mb-4">
+              Join us and discover a space where love knows no bounds. Whether
+              you're seeking a lifelong friend, a non-traditional partner, or a
+              connection that defies every rule, Lavender Love is here to help
+              you find your people and build the life you choose. Love outside
+              the lines.
+            </p>
           </div>
         </div>
       </section>
 
       {/* Sign Up Section */}
-      <section className="py-16">
-        <h2 className="text-3xl font-bold text-center mb-12 text-[var(--color-text)]">
-          Join Our Newsletter
+      <section className="pb-16">
+        <h2 className="text-3xl font-bold text-center mb-6 text-[var(--color-text)]">
+          Join the waitlist
         </h2>
         <SignUpForm />
       </section>

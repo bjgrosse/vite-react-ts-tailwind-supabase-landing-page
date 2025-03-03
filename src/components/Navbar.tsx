@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../assets/images/lvndr-black.svg";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -24,9 +24,7 @@ const Navbar = () => {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <Link to="/" className="flex-shrink-0 flex items-center">
-                <span className="text-2xl font-bold text-blue-600">
-                  YourLogo
-                </span>
+                <img src={logo} alt="LVNDR" className="h-10" />
               </Link>
             </div>
 

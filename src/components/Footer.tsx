@@ -9,10 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">YourCompany</h3>
-            <p className="text-gray-300">
-              Creating amazing experiences for our customers since 2023.
-            </p>
+            <h3 className="text-xl font-bold mb-4">LVNDR.love</h3>
+            <p className="text-gray-300">Love outside the lines.</p>
           </div>
 
           {/* Quick Links */}
@@ -35,18 +33,44 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-            <address className="not-italic text-gray-300">
-              <p>123 Main Street</p>
-              <p>Anytown, USA 12345</p>
-              <p className="mt-2">Email: info@yourcompany.com</p>
-              <p>Phone: (123) 456-7890</p>
-            </address>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="https://www.tiktok.com/@lvndr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white"
+                >
+                  TikTok
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/lvndr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white"
+                >
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://x.com/lvndr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white"
+                >
+                  X (Twitter)
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-300">
-          <p>&copy; {currentYear} YourCompany. All rights reserved.</p>
+          <p>&copy; {currentYear} LVNDR.love. All rights reserved.</p>
         </div>
       </div>
     </footer>
