@@ -1,0 +1,6 @@
+---
+description: describes rules related to packages
+globs: 
+alwaysApply: false
+---
+this project uses pnpm
