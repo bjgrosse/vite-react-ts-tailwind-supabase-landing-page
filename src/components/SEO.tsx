@@ -21,12 +21,12 @@ const SEO = ({
   keywords = "relationships, connections, love, community, inclusive",
   ogTitle = "Lvndr - Love outside the lines",
   ogDescription = "At Lvndr, love knows no bounds. We foster connections that defy the ordinary, creating a welcoming space for every kind of relationship.",
-  ogImage = "/images/og-image.png",
+  ogImage = "https://lvndr.love/images/og-image.png",
   ogUrl = "https://lvndr.love",
   twitterCard = "summary_large_image",
   twitterTitle = "Lvndr - Love outside the lines",
   twitterDescription = "At Lvndr, love knows no bounds. We foster connections that defy the ordinary, creating a welcoming space for every kind of relationship.",
-  twitterImage = "/images/og-image.png",
+  twitterImage = "https://lvndr.love/images/og-image.png",
   canonicalUrl = "https://lvndr.love",
 }: SEOProps) => {
   return (

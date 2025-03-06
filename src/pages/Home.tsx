@@ -76,11 +76,10 @@ const Home = () => {
           </h2>
 
           <div className="text-center">
-            At Lvndr, love knows no bounds. We're here to foster connections
-            that defy the ordinary. Whether you're seeking a lifelong friend, a
-            non-traditional partner, or a connection that defies every rule, we
-            create a welcoming space for every kind of relationship. Connect
-            with your match now to love outside the lines.
+            At Lvndr love knows no bounds. We create a welcoming space for
+            everyone looking for connections beyond the ordinary—non-traditional
+            partners, lifelong friends, and bonds that break the mold. Find your
+            match and love outside the lines.
           </div>
         </div>
       </section>
