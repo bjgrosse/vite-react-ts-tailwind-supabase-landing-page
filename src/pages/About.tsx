@@ -47,7 +47,7 @@ const About = () => {
               the desire to create a space where connection thrives beyond
               labels, we welcome people of every age, every stage, every life
               path. No matter your sexual orientation, gender identity, or how
-              you define yourself, Lavender Love is a place where you belong.{" "}
+              you define yourself, Lvndr is a place where you belong.{" "}
             </p>
 
             <p className="text-[var(--color-text-secondary)] mb-4">
@@ -61,8 +61,8 @@ const About = () => {
             <p className="text-[var(--color-text-secondary)] mb-4">
               Society tells us that love must look a certain way. But we know
               better. We know that love takes infinite forms, and we embrace
-              them all. Lavender Love is more than a dating app—it's a movement,
-              a safe haven, and a revolution in how we connect.{" "}
+              them all. Lvndr is more than a dating app—it's a movement, a safe
+              haven, and a revolution in how we connect.{" "}
             </p>
 
             <p className="text-[var(--color-text-secondary)] mb-4">

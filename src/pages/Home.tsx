@@ -76,7 +76,7 @@ const Home = () => {
           </h2>
 
           <div className="text-center">
-            At Lavender, love knows no bounds. We're here to foster connections
+            At Lvndr, love knows no bounds. We're here to foster connections
             that defy the ordinary. Whether you're seeking a lifelong friend, a
             non-traditional partner, or a connection that defies every rule, we
             create a welcoming space for every kind of relationship. Connect
