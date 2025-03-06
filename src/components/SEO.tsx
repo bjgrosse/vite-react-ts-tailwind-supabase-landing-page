@@ -30,7 +30,7 @@ const SEO = ({
   twitterDescription = "At Lvndr, love knows no bounds. We foster connections that defy the ordinary, creating a welcoming space for every kind of relationship.",
   twitterImage = "https://lvndr.love/images/og-image.png",
   canonicalUrl = "https://lvndr.love",
-  favicon = "/vite.svg",
+  favicon = "/favicon.svg",
   appleTouchIcon = "",
 }: SEOProps) => {
   return (
