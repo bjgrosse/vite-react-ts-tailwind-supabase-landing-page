@@ -13,6 +13,8 @@ interface SEOProps {
   twitterDescription?: string;
   twitterImage?: string;
   canonicalUrl?: string;
+  favicon?: string;
+  appleTouchIcon?: string;
 }
 
 const SEO = ({
@@ -28,6 +30,8 @@ const SEO = ({
   twitterDescription = "At Lvndr, love knows no bounds. We foster connections that defy the ordinary, creating a welcoming space for every kind of relationship.",
   twitterImage = "https://lvndr.love/images/og-image.png",
   canonicalUrl = "https://lvndr.love",
+  favicon = "/vite.svg",
+  appleTouchIcon = "",
 }: SEOProps) => {
   return (
     <Helmet>
@@ -35,6 +39,10 @@ const SEO = ({
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
+
+      {/* Favicon Tags */}
+      <link rel="icon" href={favicon} />
+      {appleTouchIcon && <link rel="apple-touch-icon" href={appleTouchIcon} />}
 
       {/* Open Graph Meta Tags */}
       <meta property="og:title" content={ogTitle} />
