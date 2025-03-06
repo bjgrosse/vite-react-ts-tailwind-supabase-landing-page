@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">LVNDR.love</h3>
+            <h3 className="text-xl font-bold mb-4">Lvndr</h3>
             <p className="text-gray-300">Love outside the lines.</p>
           </div>
 
@@ -70,7 +70,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-300">
-          <p>&copy; {currentYear} LVNDR.love. All rights reserved.</p>
+          <p>&copy; {currentYear} Lvndr. All rights reserved.</p>
         </div>
       </div>
     </footer>

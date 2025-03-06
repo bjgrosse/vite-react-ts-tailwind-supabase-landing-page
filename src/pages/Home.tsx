@@ -1,11 +1,32 @@
-import { Link } from "react-router-dom";
 import SignUpForm from "../components/SignUpForm";
+import SEO from "../components/SEO";
+import StructuredData from "../components/StructuredData";
 import "../styles/theme.css";
-import lvndrVideo from "../assets/images/lvndr.mp4";
+import lvndrVideo from "../assets/images/lvndr_capital.mp4";
 
 const Home = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Lvndr - Love outside the lines"
+        description="At Lvndr, love knows no bounds. We foster connections that defy the ordinary, creating a welcoming space for every kind of relationship."
+        keywords="relationships, connections, love, community, inclusive, dating, friendship"
+        canonicalUrl="https://lvndr.love"
+      />
+
+      <StructuredData
+        type="WebSite"
+        data={{
+          name: "Lvndr",
+          url: "https://lvndr.love",
+          potentialAction: {
+            "@type": "SearchAction",
+            target: "https://lvndr.love/search?q={search_term_string}",
+            "query-input": "required name=search_term_string",
+          },
+        }}
+      />
+
       {/* Hero Section */}
       <section className="text-[var(--color-primary-contrast)] py-10 w-full">
         <div className="container mx-auto px-4">
@@ -22,15 +43,13 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-16 bg-[var(--color-background-alt)]">
+      <section className="py-16">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p>Some fit inside the boxes. Some are happy with normal.</p>
             <p className="mt-4">
               And then there are the rest of us: the different, the quiet, the
               bold. <br />
-              The dreamers of forbidden dreams.
             </p>
             <p className="mt-4">
               Come join us, where we live and love our own way. Find her, him,
